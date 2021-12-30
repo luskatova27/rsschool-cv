@@ -1,27 +1,27 @@
-####Name Surname
+#### Name Surname
 
-###Yulia Luskatava
+### Yulia Luskatava
 
-####Contacts
+#### Contacts
 
 * *email:* luskatova27@mail.ru
 * *skype:* luskatova27
 * *discord:* Julia Luskatova (@luskatova27)
 
-####About me
+#### About me
 
 New to IT. Insistent, executive, trainable.
 
-####Hard skills
+#### Hard skills
 
 * Microsoft Office
 * Mapinfo Pro 12.5
-* *within courses worked a bit with: *
+* *within courses worked a bit with:*
 > HTML
 > CSS
 > Git
 
-####Code examples
+#### Code examples
 * CSS
 <style>
   @keyframes to-white {
@@ -44,13 +44,13 @@ New to IT. Insistent, executive, trainable.
 </style>
 <p class="black-white">My first step!</p>
 
-####Work experience
+#### Work experience
 
 Five years of work experience in non-IT area (civil engineering).
 
-####Education
+#### Education
 * 2012-2017
 Belarusian National Technical University\Faculty of Power Engineering\Water supply, sewerage, protection of water resources
 
-####English
+#### English
 Level A2.
