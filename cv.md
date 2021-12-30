@@ -49,8 +49,11 @@ New to IT. Insistent, executive, trainable.
 Five years of work experience in non-IT area (civil engineering).
 
 #### Education
-* 2012-2017
-Belarusian National Technical University\Faculty of Power Engineering\Water supply, sewerage, protection of water resources
+* *2012-2017*
+
+Belarusian National Technical University
+Faculty of Power Engineering
+Water supply, sewerage, protection of water resources (engineer)
 
 #### English
 Level A2.
