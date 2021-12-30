@@ -53,7 +53,7 @@ Five years of work experience in non-IT area (civil engineering).
 
 Belarusian National Technical University
 Faculty of Power Engineering
-Water supply, sewerage, protection of water resources (engineer)
+Water supply, sewerage, protection of water resources (engineer).
 
 #### English
 Level A2.
