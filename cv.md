@@ -1,5 +1,3 @@
-#### Name Surname
-
 ### Yulia Luskatava
 
 #### Contacts
@@ -17,12 +15,13 @@ New to IT. Insistent, executive, trainable.
 * Microsoft Office
 * Mapinfo Pro 12.5
 * *within courses worked a bit with:*
-> HTML
-> CSS
-> Git
+- HTML
+- CSS
+- Git
 
 #### Code examples
 * CSS
+```
 <style>
   @keyframes to-white {
     0% {
@@ -43,6 +42,7 @@ New to IT. Insistent, executive, trainable.
   }
 </style>
 <p class="black-white">My first step!</p>
+```
 
 #### Work experience
 
