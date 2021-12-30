@@ -15,9 +15,9 @@ New to IT. Insistent, executive, trainable.
 * Microsoft Office
 * Mapinfo Pro 12.5
 * *within courses worked a bit with:*
-- HTML
-- CSS
-- Git
+    * HTML
+    * CSS
+    * Git
 
 #### Code examples
 * CSS
