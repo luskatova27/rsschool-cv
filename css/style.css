@@ -32,9 +32,18 @@
   padding: 0;
   margin: 0;
 }
-
-.contact {
+.section-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #2c292a;
 }
+.contact {
+    
+}
+
 body {
   display: flex;
   flex-direction: column;
