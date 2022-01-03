@@ -1,72 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="icon" href="./assets/image_github.ico">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Oswald:wght@300;400&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
-<body>
-    <img src="./images/my_photo.jpg" alt='Julia's photo' width="350" height="380" >
-<h2>Yulia Luskatava</h2>
+<body class="body">
+  <header>
+    <div>
+      <nav>
+        <ul class="list">          
+          <li class="nav-list-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-list-item"><a href="#summary">Summary</a></li>
+          <li class="nav-list-item"><a href="#hard_skills">Hard skills</a></li>          
+          <li class="nav-list-item"><a href="#code_examples">Code examples</a></li>
+          <li class="nav-list-item"><a href="#projects">Projects</a></li>
+          <li class="nav-list-item"><a href="#education">Education</a></li>
+          <li class="nav-list-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div>
+      <h1 class="name">Yulia Luskatova</h1>
+    </div>
+    <div class="img-container">
+      <img src="./assets/img/my_photo.jpg" class="photo" alt="Julia's photo">
+    </div>
+    <div class="contact" id="contacts">
+      <ul>
+        <li>
+          <img src="./assets/svg/image_location.png" class="svg_png" alt="Image location">
+          Minsk, Belarus
+        </li>
+        <li>
+          <img src="./assets/svg/image_email.png" class="svg_png" alt="Image email">
+          Email: <a href="mailto:luskatova27@mail.ru" title="email">luskatova27@mail.ru</a>
+        </li>
+        <li>
+          <img src="./assets/svg/image_github.png" class="svg_png" alt="Image github">
+          Github: <a href="https://github.com/luskatova27">luskatova27</a>
+        </li>
+        <li>
+          <img src="./assets/svg/image_discord.png" class="svg_png" alt="Image discord">
+          Discord: luskatova27#3109
+        </li>
+      </ul>
+    </div>
 
-<h3>Contacts</h3>
-
-<ul>
-   <li>email: luskatova27@mail.ru</li>
-   <li>skype: luskatova27</li>
-   <li>discord: Julia Luskatova (@luskatova27)</li>
-</ul>
-<h3>About me</h3>
-
-<p class="text">New to IT. Insistent, executive, trainable.</p>
-
-<h3>Hard skills</h3>
-
-<ul>
-<p class="text"><li>Microsoft Office</li>
-   <li>Mapinfo Pro 12.5</li>
-   <li>within courses worked a bit with:</li>
-   <ul><li>HTML</li>
-       <li>CSS</li>
-       <li>Git</li></p>
-    </ul>
-</ul>
-
-<h3>Code examples</h3>
-<h4>CSS</h4>
-<code>
-    <pre>
-<style>
-  @keyframes to-white {
-    0% {
-      color: black;
-    }
-    50% {
-      color: white;
-    }
-    100% {
-      color: black;
-    }
-  }
-  .black-white {
-    animation: to-white 3s infinite;
-  }
-</style>
-<p class="black-white">My first step!</p>
-
-</style>
-</pre>
-</code>
-
-<h3>Work experience</h3>
-<p class="text">Five years of work experience in non-IT area (civil engineering).</p>
-
-<h3>Education</h3>
-<p>2012-2017</p>
-
-<p class="text">Belarusian National Technical University
-Faculty of Power Engineering
-Water supply, sewerage, protection of water resources (engineer).</p>
-
-<h3>English</h3>
-<p class="text">Level A2.</p>
+    <div class="sections-container">
+      <div class="section-container"  id="summary">
+        <section>
+          <h2 class="section-title">Summary</h2>
+          <p>New to IT. Insistent, executive, trainable.</p>
+        </section>
+      </div>
+      <div class="section-container" id="education">
+        <section>
+          <h2 class="section-title">Education</h2>
+          <p>2012-2017</p>
+          <p>Belarusian National Technical University\Faculty of Power Engineering\Water supply, sewerage, protection of water resources.</p>
+        </section>
+      </div>
+      <div class="section-container" id="languages">
+        <section>
+          <h2 class="section-title">Languages:</h2>
+          <p>English - A2</p>
+          <p>Russian - Native</p>
+        </section>
+      </div>
+      <div class="section-container" id="hard_skills">
+        <section>
+          <h2 class="section-title">Hard skills</h2>
+          <ul>
+            <li>Microsoft Office</li>
+            <li>Mapinfo Pro 12.5</li>
+            <li>within courses worked a bit with: </li>
+            <li>
+              <ul>
+                <li>HTML;</li>
+                <li>CSS;</li>
+                <li>Git.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="section-container" id="work_experience">
+        <section>
+          <h2 class="section-title">Projects</h2>
+          <ul>
+            <li>CV#1. Markdown & Git</li>
+            <li>CV#2. HTML, CSS & Git Basics</li>
+            <li>CV#3. CV. Cross-Check</li>
+          </ul>
+        </section>
+      </div>
+      <div class="section-container" id="code_examples">
+        <section>
+          <h2 class="section-title">Code examples</h2>
+          <pre  > 
+            <code>
+              @keyframes to-white {
+                0% {
+                color: black;
+                }
+                50% {
+                color: white;
+                }
+                100% {
+                color: black;
+                }
+              }
+              .black-white {
+              animation: to-white 3s infinite;
+              }
+            </code>
+          </pre> 
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-container">
+    <div class="github-link-container">
+      <img src="./assets/svg/image_github.png" class="svg_png" alt="Image github">
+       <a href="https://github.com/luskatova27">luskatova27
+       </a>
+    </div>
+    <div><p>© 2022</p>
+    </div>
+    <div>
+      <a href="https://rs.school/js/">
+        <img src="./assets/svg/rs_school.png" class="svg_1_png" alt="Image rs-school">
+      </a>
+    </div>
+</footer>
 </body>
 </html>
