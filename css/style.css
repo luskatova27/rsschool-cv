@@ -27,15 +27,8 @@
 .svg_png {
   width: 20px;
 }
-.contacts {
-  font-family: "Oswald", sans-serif;
-  color: #2c292a;
+.contact {
 
-  background-color: #f29f05;
-  padding: 3vh 5vw 1vh 5vw;
-  color: white;
-  border-radius: 0 0 35px 0;
-  /* flex-grow: 1; */
 }
 body {
   display: flex;
