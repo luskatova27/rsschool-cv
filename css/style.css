@@ -9,6 +9,10 @@
   align-items: stretch;
   background-color: #c3e0c9;
   margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+  border-radius: 7px;
 }
 .nav-list-item {
   padding: 10px;
@@ -47,6 +51,13 @@
 }
 .contact {
   padding-left: 5%;
+  position: relative;
+  top: -9px;
+  background-color: #c3e0c9;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 15px;
+  border-radius: 7px;
 }
 
 .body {
