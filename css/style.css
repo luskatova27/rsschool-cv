@@ -27,8 +27,13 @@
 .svg_png {
   width: 20px;
 }
-.contact {
 
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.contact {
 }
 body {
   display: flex;
