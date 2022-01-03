@@ -10,26 +10,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="link">
-    <div class="container link-container">
-      <nav class="nav">
+  <header>
+    <div class="container green">
+      <nav>
         <ul class="list">          
-          <li><a href="#contacts">Contacts</a></li>
-          <li><a href="#about_me">About me</a></li>
-          <li><a href="#hard_skills">Hard skills</a></li>          
-          <li><a href="#code_examples">Code examples</a></li>
-          <li><a href="#work_experience">Work experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#languages">Languages</a></li>
+          <li class="nav-list-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-list-item"><a href="#about_me">About me</a></li>
+          <li class="nav-list-item"><a href="#hard_skills">Hard skills</a></li>          
+          <li class="nav-list-item"><a href="#code_examples">Code examples</a></li>
+          <li class="nav-list-item"><a href="#work_experience">Work experience</a></li>
+          <li class="nav-list-item"><a href="#education">Education</a></li>
+          <li class="nav-list-item"><a href="#languages">Languages</a></li>
         </ul>
       </nav>
   </header>
-  <main class="main">
-    <div class="name">
-      <h1 class="h1__name">Yulia Luskatava</h1>
+  <main>
+    <div>
+      <h1 class="name">Yulia Luskatava</h1>
     </div>
-    <div class="photo">
-      <img scr="./assets/img/my_photo.jpg" alt="Julia's photo">
+    <div class="img-container">
+      <img src="./assets/img/my_photo.jpg" class="photo" alt="Julia's photo">
     </div>
     <div class="contact" id="Contacts">
       <ul>
@@ -39,7 +39,7 @@
         </li>
         <li>
           <img src="./assets/svg/image_email.png" class="svg_png" alt="Image email">
-          Email: <a href="luskatova27@mail.ru" title="email">luskatova27@mail.ru</a>
+          Email: <a href="mailto:luskatova27@mail.ru" title="email">luskatova27@mail.ru</a>
           </a>
         </li>
         <li>
@@ -48,10 +48,48 @@
         </li>
         <li>
           <img src="./assets/svg/image_discord.png" class="svg_png" alt="Image discord">
-          Diskord: luskatova27#3109
+          Discord: luskatova27#3109
         </li>
       </ul>
     </div>
+
+    <div class="sections-container">
+      <div class="section-container">
+        <section>
+          Summary
+        </section>
+      </div>
+      <div class="section-container">
+        <section>
+          Education
+        </section>
+      </div>
+      <div class="section-container">
+        <section>
+          Languages
+        </section>
+      </div>
+      <div class="section-container">
+        <section>
+          Hard skills
+        </section>
+      </div>
+      <div class="section-container">
+        <section>
+          Work experience
+        </section>
+      </div>
+      <div class="section-container">
+        <section>
+          Code example
+        </section>
+      </div>
+    </div>
   </main>
+  <footer>
+    <div>
+      <p>© 2022</p>
+    </div>
+  </footer>
 </body>
 </html>

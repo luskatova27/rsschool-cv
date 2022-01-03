@@ -1,12 +1,31 @@
 * {
   box-sizing: border-box;
 }
-.link {
+.list {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
   align-items: stretch;
   background-color: rgb(138, 199, 88);
-  margin: 0 0 0 0;
+  margin: 0px;
+}
+.nav-list-item {
+  padding: 10px;
+}
+.name {
+  text-align: center;
+  font-size: xxx-large;
+}
+.photo {
+  width: 35%;
+  border-radius: 400px;
+}
+.img-container {
+  text-align: center;
+}
+.svg_png {
+  width: 20px;
 }
 .contacts {
   font-family: "Oswald", sans-serif;
