@@ -2,10 +2,12 @@
   box-sizing: border-box;
 }
 
+.html {
+  background-color: rgb(200, 194, 184);
+}
+
 .all {
-  max-width: 1680px;
-  margin: 0 auto;
-  min-height: 100px;
+  margin: 40px 120px 40px 120px;
 }
 
 .list {
@@ -34,7 +36,7 @@ li.nav-list-item a {
   font-family: "Luxurious Roman", cursive;
 }
 .photo {
-  max-width: 450px;
+  max-width: 400px;
   border-radius: 50%;
 }
 .img-container {
